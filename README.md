@@ -1,3 +1,25 @@
+# Task Manager App
+
+A simple Task Manager application built with Next.js, Tailwind CSS, and TypeScript. This app leverages the power of drag and drop functionality using the @hello-pangea/dnd package.
+
+## Features
+
+- **Intuitive Drag and Drop**: Organize your tasks effortlessly with a user-friendly drag-and-drop interface.
+
+- **Responsive Design**: The app is designed to work seamlessly on various screen sizes, from mobile to desktop.
+
+- **TypeScript**: Enjoy the benefits of static typing and improved code quality with TypeScript.
+
+## Installation
+
+To get started with the Task Manager App, follow these simple steps:
+
+1. Clone this repository:
+
+   ```bash
+   git clone git@github.com:seralv/task-manager.git
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
