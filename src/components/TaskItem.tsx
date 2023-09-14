@@ -1,5 +1,5 @@
 import React from 'react';
-import { DraggableProvided } from 'react-beautiful-dnd';
+import { DraggableProvided } from '@hello-pangea/dnd';
 
 interface Task {
   id: number;
@@ -20,7 +20,7 @@ const TaskItem: React.FC<TaskItemProps> = ({ task, provided }) => {
       className="bg-gray-200 rounded-lg p-4 shadow-md mb-2"
     >
       {task.text}
-      <span className="text-xs text-gray-500 ml-2">Posición: {provided.draggableProps['data-rbd-draggable-context-id'].split('-')[1]}</span>
+      {/* <span className="text-xs text-gray-500 ml-2">Posición: {provided.draggableProps['data-rbd-draggable-context-id'].split('-')[1]}</span> */}
     </li>
   );
 };
